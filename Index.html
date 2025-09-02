@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="first name">First Name</label>
+            <input type="text" id="first name"><br><br>
+            <label for="last name">Last Name</label>
+            <input type="text" id="last name"><br><br>
+            <label for="age">Age</label>
+            <input type="number" id="age"><br><br>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob"><br><br>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Contact & Address information</legend>
+            <label for="email">Email Address</label>
+            <input type="text" id="email"><br><br>
+            <label for="number">Phone Number</label>
+            <input type="number" id="number"><br><br>
+            <label for="website">Personal website</label>
+            <input type="url" id="website"><br><br>
+            <label for="street-address">Street address</label>
+            <input type="text" id="street-address"><br><br>
+            <label for="city">City</label>
+            <input type="text" id="city"><br><br>
+            <label for="country">country</label>
+            <select name="country" id="country">
+                <option value="kenya" able selected>Kenya</option>
+                <option value="us">united states</option>
+                <option value="can">canada</option>
+                <option value="south africa">south africa</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Preference & Interests</legend>
+            <label for="color">Favourite color</label>
+            <input type="color" id="color"><br><br>
+            <label for="experince-level">Experience level</label>
+            <input type="number" id="experince-level" required="1 to 10"><br><br>
+            <label for="Interests">Interests(Select all that is applicable)</label>
+            <select name="Interests" id="Interests">
+                <input type="checkbox" name="music" id="music">
+                <label for="music">Music</label><br><br>
+                <input type="checkbox" name="sports" id="sports">
+                <label for="sports">sports</label><br>
+                <input type="checkbox" name="tech" id="tech">
+                <label for="tech">technology</label><br>
+                <input type="checkbox" name="travel" id="travel">
+                <label for="travel">Travel</label><br>
+                <input type="checkbox" name="reading" id="reading">
+                <label for="reading">Reading</label><br>
+                <input type="checkbox" name="cook" id="cook">
+                <label for="cook">Cooking</label>
+            </select><br><br>
+            <label for="education-level">Education level</label>
+            <select name="education-level" id="education-level">
+                <option value="" disabled selected>Select your education level</option>
+                <option value="highschool">Highschool</option>
+                <option value="college">College</option>
+                <option value="diploma">Diploma</option>
+                <option value="degree">Degree</option>
+                <option value="postgraduate">Postgraduate</option>
+                <option value="masters">Masters</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback & Additional Information</legend>
+            <h4>Tell us about yourself:</h4>
+            <label for="message"></label>
+            <textarea name="message" id="message" rows="10" cols="100" placeholder="write a brief description about yourself"></textarea><br><br>
+            <h4>Suggestion for improvement:</h4>
+            <label for="message"></label>
+            <textarea name="message" id="message" cols="100" rows="10" placeholder="Any suggestions or feedback"></textarea><br><br>
+            <label for="datetime-local">Registration Date & Time</label>
+            <input type="datetime-local" name="datetime-local" id="datetime-local"><br><br>
+            <label for="annoucements">How did you hear about us?</label>
+            <select name="annoucements" id="annoucements">
+                <option value="socialmedia">socialmedia</option>
+                <option value="familyand friends">family and friends</option>
+                <option value="posters">posters</option>
+            </select><br><br>
+            <label for="resume">Upload resume(optional):</label>
+            <input type="button" value="choose a file"> No file chosen <br><br>
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">Subscribe for Newsletter</label><br><br>
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">I agree to the terms and conditions</label><br><br>
+            <input type="checkbox" name="privacy" id="privacy">
+            <label for="privacy">I agree to the privacy policy</label>
+        </fieldset>
+        <label for="Register"></label>
+        <input type="button" value="Register">
+        <Label for="Clear form"></Label>
+        <input type="button" value="Clear form">
+    </form>
+    
+</body>
+</html>
