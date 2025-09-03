@@ -6,6 +6,7 @@
     <title>Registration form</title>
 </head>
 <body>
+    <h1>Registration Form</h1>
     <form action="/submit" method="post">
         <fieldset>
             <legend>Personal information</legend>
@@ -49,10 +50,9 @@
             <input type="color" id="color"><br><br>
             <label for="experince-level">Experience level</label>
             <input type="number" id="experince-level" required="1 to 10"><br><br>
-            <label for="Interests">Interests(Select all that is applicable)</label>
-            <select name="Interests" id="Interests">
+            <label for="Interests">Interests(Select all that is applicable)</label><br><br>
                 <input type="checkbox" name="music" id="music">
-                <label for="music">Music</label><br><br>
+                <label for="music">Music</label><br>
                 <input type="checkbox" name="sports" id="sports">
                 <label for="sports">sports</label><br>
                 <input type="checkbox" name="tech" id="tech">
@@ -62,8 +62,7 @@
                 <input type="checkbox" name="reading" id="reading">
                 <label for="reading">Reading</label><br>
                 <input type="checkbox" name="cook" id="cook">
-                <label for="cook">Cooking</label>
-            </select><br><br>
+                <label for="cook">Cooking</label><br><br>
             <label for="education-level">Education level</label>
             <select name="education-level" id="education-level">
                 <option value="" disabled selected>Select your education level</option>
