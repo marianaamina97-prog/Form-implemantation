@@ -1,7 +1,7 @@
 # Form-implemantation
 ## Introduction
 A form is container used to collect user input and send it to the serve.it is also a semantic element because it explains itself. Forms are essiantial for things like search bars,login pages ,surveys and contact forms.
-## Implemantation Of A Form
+## Form features
 A form is created with the < form > element.A form is made up of four main parts which include:
 <ul>
   <li>legend</li>
@@ -30,4 +30,6 @@ A fieldset is used to group related form  elements together.It usually has a bor
 ### labels
 The < label > element is used to define caption for an input element.This improves usability and accessibility.It is advisiable to always associate labels with inputs for easy accessibility.
 
-### input
+## Form Implemantation
+For a form to be functional it has to have all its features.For example a "Registration form" this has a fieldset,inside the fieldset the form has it first legend as "personal information" This groups evrything about you like name ,phone number,email and gender in one fielset.
+Inside the fieldset there are labels and inputs for easy readability.
