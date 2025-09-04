@@ -31,5 +31,5 @@ A fieldset is used to group related form  elements together.It usually has a bor
 The < label > element is used to define caption for an input element.This improves usability and accessibility.It is advisiable to always associate labels with inputs for easy accessibility.
 
 ## Form Implemantation
-For a form to be functional it has to have all its features.For example a "Registration form" this has a fieldset,inside the fieldset the form has it first legend as "personal information" This groups evrything about you like name ,phone number,email and gender in one fielset.
-Inside the fieldset there are labels and inputs for easy readability.
+For a form to be functional it has to have all its features.For example a "Registration form" this has a fieldset,inside the fieldset the form has it first legend as "personal information" This groups everything about you like name ,phone number,email and gender in one fielset.
+Inside the fieldset there are labels and inputs for easy readability.Different legends groups different inputs and labels in one fieldset.Each fiedset and legend makes a border classifying different fieldset from each other . 
