@@ -25,3 +25,6 @@ It helps organize forms visually and logically.
 For a form to be functional it has to have all its features.For example a "Registration form" this has a fieldset,inside the fieldset the form has it first legend as "personal information" This groups everything about you like name ,phone number,email and gender in one fieldset.
 Inside the fieldset there are labels and inputs for easy readability.Different legends groups different inputs and labels in one fieldset.Each fiedset and legend makes a border classifying different fieldset from each other .
 
+## Reference
+https://github.com/marianaamina97-prog/Form-implemantation/blob/8c763879ac978ced40d4e3e54538288596afd20f/Index.html
+
