@@ -1,0 +1,134 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px #d1d5db;
+    border-radius: 5px;
+    background-color: #f9fafb;
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #111827;
+}
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction:space-between;
+    font-size: 15px;
+    font-weight: inherit;
+    background-color: #3b82f6;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+legend{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #111827;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 10px;
+    top: -10px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: bold;
+    color: #111827;
+    font-family: 'Poppins', sans-serif;
+}
+input, select, textarea{
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="checkbox"]{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+}
+input[type="button"]{
+    background-color: #2563eb;
+    color:black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+input[type="button"]:hover{
+    transform: scale(1.1);
+    background-color: #1e40af;
+    color: white;
+}
+/* Align checkbox and label horizontally */
+input[type="checkbox"] {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 4px;
+    margin-right: 8px; /* Adds space between checkbox and label */
+    vertical-align: middle; /* Aligns checkbox vertically with label text */
+}
+input:hover, select:hover, textarea:hover{
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+    color: #8b5cf6;
+}
+input[value="Register"]{
+    width: 150px;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+input[value="Clear form"]{
+    width: 150px;
+    cursor: pointer;
+    accent-color: #ec4899;
+    background-color: blueviolet;
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+}
