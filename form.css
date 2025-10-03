@@ -124,11 +124,3 @@ input[value="Clear form"]{
     gap: 20px;
     margin-top: 20px;
 }
-
-.checkbox-row {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 6px;
-}
-}
