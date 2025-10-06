@@ -48,14 +48,21 @@ legend{
     top: -10px;
 }
 label{
-    display: flex;
-    flex-direction: column;
     font-size: 15px;
     font-weight: bold;
     color: #111827;
     font-family: 'Poppins', sans-serif;
 }
-input, select, textarea{
+/* Make textual inputs and selects full-width, but keep checkboxes/radios auto-sized */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+input[type="color"],
+input[type="range"],
+textarea,
+select {
     padding: 8px;
     border: 1px solid #d1d5db;
     border-radius: 4px;
@@ -64,13 +71,14 @@ input, select, textarea{
     width: 100%;
     box-sizing: border-box;
 }
-input[type="checkbox"]{
-    background-color: black;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    display: flex;
+
+/* Checkboxes should keep their natural size and align inline with labels */
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
 }
 input[type="button"]{
     background-color: #2563eb;
@@ -90,14 +98,13 @@ input[type="button"]:hover{
     background-color: #1e40af;
     color: white;
 }
-/* Align checkbox and label horizontally */
-input[type="checkbox"] {
+
+/* Checkbox-row helper to align checkbox + label in one row */
+.checkbox-row {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 8px;
-    margin-bottom: 4px;
-    margin-right: 8px; /* Adds space between checkbox and label */
-    vertical-align: middle; /* Aligns checkbox vertically with label text */
+    margin-bottom: 6px;
 }
 input:hover, select:hover, textarea:hover{
     border-color: #2563eb;
@@ -123,4 +130,11 @@ input[value="Clear form"]{
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+}
+@media (max-width: 640px) {
+  form, fieldset {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+  }
 }
