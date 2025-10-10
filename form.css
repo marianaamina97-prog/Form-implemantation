@@ -16,7 +16,7 @@ form{
     padding: 10px;
     border: 1px #d1d5db;
     border-radius: 5px;
-    background-color: #f9fafb;
+    background-color: #0c76df;
     color: #1f2937;
     font-family: Arial, sans-serif;
     width: 100%;
@@ -33,7 +33,8 @@ h1{
     color: #111827;
 }
 fieldset{
-    border: none;
+    border: #111827;
+    border-color: black;
     display: flex;
     flex-direction: column;
     gap: 10px;
